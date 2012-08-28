@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
 
 	<!-- Style theme. More available in /themes/style/ or create your own. -->
-	<link rel="stylesheet" href="themes/style/web-2.0.css">
+	<link rel="stylesheet" href="themes/style/swiss.css">
 	
 	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
 	<link rel="stylesheet" href="themes/transition/horizontal-slide.css">
@@ -32,30 +32,23 @@
 <!-- Begin slides. Just make elements with a class of slide. -->
 
 <section class="slide">
-	<h1>Tom brags about his data-cleaning accomplishments, and you can too.</h1>
+	<h1>Tom brags about his data-cleaning projects, <br /> and you can too.</h1>
 </section>
 
 <section class="slide">
-	<h1>Recent projects</h1>
-</section>
-
-<section class="slide">
-	<h2>Measuring access to financial products</h2>
+	<h2>Outline</h2>
+	<p>Bragging about projects</p>
 	<ul>
-		<li><p>The <a href="http://www.themix.org">Microfinance Information Exchange</a></p></li>
-		<blockquote cite="http://www.themix.org/">
-			MIX delivers data services, analysis, research and
-			business information on the institutions that
-			provide financial services to the world’s poor.
-		</blockquote>
-		<li><p>How can we measure access to financial products?</p></li>
-		<li><p>I scraped locations of <a href="http://www.themix.org/publications/mix-microfinance-world/2012/05/mapping-financial-sector-south-africa">all sorts of credit providers</a></p></li>
+		<li>New Orleans Wetlands</li>
+		<li>Financial Products in Africa</li>
+		<li>Sampling frame for a study on toilet-use</li>
+		<li>Middle names</li>
 	</ul>
+	<p>Thoughts</p>
 </section>
 
-<section class="slide" style="height: 100%;">
-	<h2>Map of the financial sector in South Africa</h2>
-	<iframe src="http://maps.mixmarket.org/south-africa/" width="100%" height="80%"></iframe>
+<section class="slide">
+	<h1>New Orleans Wetlands</h1>
 </section>
 
 <section class="slide">
@@ -76,23 +69,85 @@
 
 <section class="slide" style="height: 100%;">
 	<h2>New Orleans Wetlands</h2>
-	<p>Applications get posted to a website.</p>
+	<p>Applications get posted to a <a href="http://www.mvn.usace.army.mil/ops/regulatory/publicnotices.asp">website</a>.</p>
 	<img src="images/army404.png" alt="Screenshot of the Army Corps of Engineers website">
 </section>
 
 <section class="slide">
 	<h2>New Orleans Wetlands</h2>
 	<p>Applications look like this.</p>
+	<img src="images/public-notice.png" alt="Excerpt of a public notice regarding a New Orleans wetland development" width="70%" >
+</section>
+
+<section class="slide">
+	<h2>New Orleans Wetlands</h2>
+	<p>How the Gulf Restoration Network uses these</p>
+	<ol>
+		<li>Read the public notices regularly.</li>
+		<li>Identify applications for inappropriate things (like shopping malls).</li>
+		<li>Contact 
+	</ol>
+	<a href="http://healthygulf.org/images/who_we_are/staff/Scott_headshot2.jpg">
+		<img src="images/scott.png" style="float: left;">
+	</a>
+	<div>
+		<p>In the past, <a href="http://healthygulf.org/images/who_we_are/staff/Scott_headshot2.jpg">Scott</a> has had to do this manually. But he doesn't really have time for that.</p>
+		<p>We're using a computer program to make the first two of these steps easier.</p>
+	</div>
+</section>
+
+<section class="slide">
+	<h2>New Orleans Wetlands</h2>
+	<p>My script extracts this information.</p>
 	<img src="images/highlighted-public-notice.png" alt="Highlighted excerpt of a public notice regarding a New Orleans wetland development" width="70%" >
 </section>
 
 <section class="slide">
-	<h1>How I got in to this</h1>
+	<h2>New Orleans Wetlands</h2>
+	<p>It also</p>
+	<ul>
+		<li>runs automatically every day</li>
+		<li>saves all of the files</li>
+		<li>checks for changes in files</li>
+		<li>produces a spreadsheet of the extracted information</li>
+		<li>hosts all of this on a website that Scott can access</li>
+	</ul>
+	<p>
+		We're still working out the kinks, but the initial goal is that Scott will be able to use the spreadsheet to quickly
+		find notices that he should look into further. Then he'll read the notice and take whatever actions make sense.
+	</p>
+</section>
+
+<section class="slide">
+	<h1>Financial products in Africa</h1>
+</section>
+
+<section class="slide">
+	<h2>Measuring access to financial products</h2>
+	<ul>
+		<li>The <a href="http://www.themix.org">Microfinance Information Exchange</a></li>
+		<blockquote cite="http://www.themix.org/">
+			MIX delivers data services, analysis, research and
+			business information on the institutions that
+			provide financial services to the world’s poor.
+		</blockquote>
+		<li>Who has access to what financial products?</li>
+		<li>I scraped locations of <a href="http://www.themix.org/publications/mix-microfinance-world/2012/05/mapping-financial-sector-south-africa">all sorts of credit providers</a></li>
+	</ul>
+</section>
+
+<section class="slide" style="height: 100%;">
+	<h2>Map of the financial sector in South Africa</h2>
+	<iframe src="http://maps.mixmarket.org/south-africa/" width="100%" height="80%"></iframe>
+</section>
+
+<section class="slide">
+	<h1>Ergonomics research</h1>
 </section>
 
 <section class="slide">
 	<h2>Ergonomics research</h2>
-	<p>I studied how people use computers and toilets (not at the same time)</p>
+	<p>In school, I studied how people use computers and toilets (not at the same time)</p>
 	<p>Scripts for</p>
 	<ul>
 		<li>Tidying data</li>
@@ -109,11 +164,15 @@
 		<li>I wanted a sample of students</li>
 		<li>My university had a public database of all student, faculty and alumni email addresses.</li>
 	</ul>
-	<p>While selecting this sample, I started wondering about middle names.</p>
+</section>
+
+<section class="slide">
+	<h1>Frivolity</h1>
 </section>
 
 <section class="slide">
 	<h2>Middle names</h2>
+	<p>While selecting the sample for that toilet study, I started wondering how many people have middle names.</p>
 	<p>I asked the US Census.</p>
 	<pre>
 Subject
@@ -146,17 +205,26 @@ Bureau collects data. We are sorry we were not able to assist you.
 </section>
 
 <section class="slide">
-	<h2>Cleaning the data is not the point</h2>
+	<h1>End of bragging-about-projects</h1>
+</section>
+
+<section class="slide">
+	<h2>What is the point?</h2>
 	<ul>
-		<li>Cleaning the data can be most of the work.</li>
-		<li>I really just want to analyze the cleaned data.</li>
+		<li>I use numbers to learn about how people work.</li>
+		<li>If I had clean data, the analysis would be easy.</li>
+		<li>Cleaning the data is most of the work of an analysis.</li>
 		<li>I know enough about computers to do all this, but you shouldn't need to.</li>
 	</ul>
 </section>
 
 <section class="slide">
-	<h2>My work at ScraperWiki</h2>
-	<p>We're making a platform to make data projects easier.</p>
+	<h1>My actual work</h1>
+</section>
+
+<section class="slide">
+	<h2>ScraperWiki</h2>
+	<p>We're making a platform to make data projects easier for you.</p>
 	<ul>
 		<li>Simplify computer infrastructure so you don't have to learn it.</li>
 		<li>Automatically provide obvious tools: scheduling, a web API, &c.</li>
@@ -165,17 +233,24 @@ Bureau collects data. We are sorry we were not able to assist you.
 </section>
 
 <section class="slide">
-	<h2>And you can brag too</h2>
-	<p>People ask me how they can learn to do what I do.</p>
-	<ul>
-		<li>Find a boring job that you want to replace with a computer.</li>
-		<li>Start with a small part of that job.</li>
-		<li>Unsophisticated programs can get you pretty far.</li>
-		<li>Use existing software libraries so you don't have to write your own</li>
-		<li>If you can't get the data you want, come up with an alternative.</li>
-	</ul>
+	<h1>And you can brag too</h1>
 </section>
 
+<section class="slide">
+	<h2>How do you learn about this data stuff?</h2>
+	<p>Find something that annoys you and for which no good tools exist.</p>
+	<p>Try making something to make the thing less annoying.</p>
+	<ul>
+		<li>Start with a small part of that task.</li>
+		<li>Unsophisticated programs can get you pretty far.</li>
+		<li>Use existing software libraries so you don't have to write your own</li>
+	</ul>
+	<p>If that's still too hard, do something else to make the thing less annoying.</p>
+</section>
+
+<section class="slide">
+	<h1><span style="font-size: 4em;">!</span></h1>
+</section>
 
 <!-- End slides. -->
 
